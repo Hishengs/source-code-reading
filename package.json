@@ -1,0 +1,32 @@
+{
+  "name": "source-code-reading",
+  "version": "1.0.0",
+  "description": "reading repo for excellent project source code",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test-koa": "ab -n 1000 -t 100 http://localhost:8001/",
+    "test-express": "ab -n 1000 -t 100 http://localhost:8002/",
+    "test-egg": "ab -n 1000 -t 100 http://localhost:7001/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hishengs/source-code-reading.git"
+  },
+  "author": "Hisheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hishengs/source-code-reading/issues"
+  },
+  "homepage": "https://github.com/Hishengs/source-code-reading#readme",
+  "dependencies": {
+    "egg": "^2.2.1",
+    "express": "^4.16.2",
+    "koa": "^2.4.1"
+  },
+  "devDependencies": {
+    "egg-init": "^1.13.0"
+  }
+}
