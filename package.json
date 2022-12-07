@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Hishengs/source-code-reading#readme",
   "dependencies": {
     "egg": "^2.2.1",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "koa": "^2.4.1",
     "thinkjs": "^3.2.6"
   },
